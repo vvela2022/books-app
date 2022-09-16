@@ -1,0 +1,989 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2022 The New York Times Company.  All Rights Reserved.",
+    "num_results": 15,
+    "last_modified": "2022-09-14T23:26:36-04:00",
+    "results": {
+      "list_name": "Hardcover Fiction",
+      "list_name_encoded": "hardcover-fiction",
+      "bestsellers_date": "2022-09-10",
+      "published_date": "2022-09-25",
+      "published_date_description": "latest",
+      "next_published_date": "",
+      "previous_published_date": "2022-09-18",
+      "display_name": "Hardcover Fiction",
+      "normal_list_ends_at": 15,
+      "updated": "WEEKLY",
+      "books": [
+        {
+          "rank": 1,
+          "rank_last_week": 0,
+          "weeks_on_list": 1,
+          "asterisk": 0,
+          "dagger": 0,
+          "primary_isbn10": "1668002175",
+          "primary_isbn13": "9781668002179",
+          "publisher": "Scribner",
+          "description": "A high school kid inherits a shed that is a portal to another world where good and evil are at war.",
+          "price": "0.00",
+          "title": "FAIRY TALE",
+          "author": "Stephen King",
+          "contributor": "by Stephen King",
+          "contributor_note": "",
+          "book_image": "https://storage.googleapis.com/du-prd/books/images/9781668002179.jpg",
+          "book_image_width": 329,
+          "book_image_height": 500,
+          "amazon_product_url": "https://www.amazon.com/dp/1668002175?tag=NYTBSREV-20",
+          "age_group": "",
+          "book_review_link": "",
+          "first_chapter_link": "",
+          "sunday_review_link": "",
+          "article_chapter_link": "",
+          "isbns": [
+            {
+              "isbn10": "1668002175",
+              "isbn13": "9781668002179"
+            },
+            {
+              "isbn10": "1668002183",
+              "isbn13": "9781668002186"
+            }
+          ],
+          "buy_links": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/dp/1668002175?tag=NYTBSREV-20"
+            },
+            {
+              "name": "Apple Books",
+              "url": "https://goto.applebooks.apple/9781668002179?at=10lIEQ"
+            },
+            {
+              "name": "Barnes and Noble",
+              "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781668002179"
+            },
+            {
+              "name": "Books-A-Million",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fp%252FFAIRY%252BTALE%252FStephen%252BKing%252F9781668002179&url2=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fsearch%253Fquery%253DFAIRY%252BTALE%252BStephen%252BKing"
+            },
+            {
+              "name": "Bookshop",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fbookshop.org%2Fa%2F3546%2F9781668002179&url2=https%3A%2F%2Fbookshop.org%2Fbooks%3Faffiliate%3D3546%26keywords%3DFAIRY%2BTALE"
+            },
+            {
+              "name": "IndieBound",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.indiebound.org%2Fbook%2F9781668002179%3Faff%3DNYT&url2=https%3A%2F%2Fwww.indiebound.org%2Fsearch%2Fbook%3Fkeys%3DFAIRY%2BTALE%2BStephen%2BKing%26aff%3DNYT"
+            }
+          ],
+          "book_uri": "nyt://book/1c203c2d-147d-5639-8e0c-009ba6f15698"
+        },
+        {
+          "rank": 2,
+          "rank_last_week": 0,
+          "weeks_on_list": 1,
+          "asterisk": 0,
+          "dagger": 0,
+          "primary_isbn10": "1250278236",
+          "primary_isbn13": "9781250278234",
+          "publisher": "St. Martin's",
+          "description": "The 55th book of the In Death series. Eve Dallas is reminded of her past as she investigates a possible sex trafficking ring.",
+          "price": "0.00",
+          "title": "DESPERATION IN DEATH",
+          "author": "J.D. Robb",
+          "contributor": "by J.D. Robb",
+          "contributor_note": "",
+          "book_image": "https://storage.googleapis.com/du-prd/books/images/9781250278234.jpg",
+          "book_image_width": 329,
+          "book_image_height": 500,
+          "amazon_product_url": "https://www.amazon.com/dp/1250278236?tag=NYTBSREV-20",
+          "age_group": "",
+          "book_review_link": "",
+          "first_chapter_link": "",
+          "sunday_review_link": "",
+          "article_chapter_link": "",
+          "isbns": [
+            {
+              "isbn10": "1250278236",
+              "isbn13": "9781250278234"
+            },
+            {
+              "isbn10": "1250278244",
+              "isbn13": "9781250278241"
+            }
+          ],
+          "buy_links": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/dp/1250278236?tag=NYTBSREV-20"
+            },
+            {
+              "name": "Apple Books",
+              "url": "https://goto.applebooks.apple/9781250278234?at=10lIEQ"
+            },
+            {
+              "name": "Barnes and Noble",
+              "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781250278234"
+            },
+            {
+              "name": "Books-A-Million",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fp%252FDESPERATION%252BIN%252BDEATH%252FJ.D.%252BRobb%252F9781250278234&url2=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fsearch%253Fquery%253DDESPERATION%252BIN%252BDEATH%252BJ.D.%252BRobb"
+            },
+            {
+              "name": "Bookshop",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fbookshop.org%2Fa%2F3546%2F9781250278234&url2=https%3A%2F%2Fbookshop.org%2Fbooks%3Faffiliate%3D3546%26keywords%3DDESPERATION%2BIN%2BDEATH"
+            },
+            {
+              "name": "IndieBound",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.indiebound.org%2Fbook%2F9781250278234%3Faff%3DNYT&url2=https%3A%2F%2Fwww.indiebound.org%2Fsearch%2Fbook%3Fkeys%3DDESPERATION%2BIN%2BDEATH%2BJ.D.%2BRobb%26aff%3DNYT"
+            }
+          ],
+          "book_uri": "nyt://book/26268101-9366-5efe-a2a3-399268dbcdc4"
+        },
+        {
+          "rank": 3,
+          "rank_last_week": 1,
+          "weeks_on_list": 2,
+          "asterisk": 0,
+          "dagger": 0,
+          "primary_isbn10": "0593158687",
+          "primary_isbn13": "9780593158685",
+          "publisher": "Ballantine",
+          "description": "A tennis player comes out of retirement and trains with her father to defend her record.",
+          "price": "0.00",
+          "title": "CARRIE SOTO IS BACK",
+          "author": "Taylor Jenkins Reid",
+          "contributor": "by Taylor Jenkins Reid",
+          "contributor_note": "",
+          "book_image": "https://storage.googleapis.com/du-prd/books/images/9780593158685.jpg",
+          "book_image_width": 329,
+          "book_image_height": 500,
+          "amazon_product_url": "https://www.amazon.com/dp/0593158687?tag=NYTBSREV-20",
+          "age_group": "",
+          "book_review_link": "",
+          "first_chapter_link": "",
+          "sunday_review_link": "",
+          "article_chapter_link": "",
+          "isbns": [
+            {
+              "isbn10": "0593158687",
+              "isbn13": "9780593158685"
+            },
+            {
+              "isbn10": "0593158695",
+              "isbn13": "9780593158692"
+            },
+            {
+              "isbn10": "0593632109",
+              "isbn13": "9780593632109"
+            }
+          ],
+          "buy_links": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/dp/0593158687?tag=NYTBSREV-20"
+            },
+            {
+              "name": "Apple Books",
+              "url": "https://goto.applebooks.apple/9780593158685?at=10lIEQ"
+            },
+            {
+              "name": "Barnes and Noble",
+              "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780593158685"
+            },
+            {
+              "name": "Books-A-Million",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fp%252FCARRIE%252BSOTO%252BIS%252BBACK%252FTaylor%252BJenkins%252BReid%252F9780593158685&url2=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fsearch%253Fquery%253DCARRIE%252BSOTO%252BIS%252BBACK%252BTaylor%252BJenkins%252BReid"
+            },
+            {
+              "name": "Bookshop",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fbookshop.org%2Fa%2F3546%2F9780593158685&url2=https%3A%2F%2Fbookshop.org%2Fbooks%3Faffiliate%3D3546%26keywords%3DCARRIE%2BSOTO%2BIS%2BBACK"
+            },
+            {
+              "name": "IndieBound",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.indiebound.org%2Fbook%2F9780593158685%3Faff%3DNYT&url2=https%3A%2F%2Fwww.indiebound.org%2Fsearch%2Fbook%3Fkeys%3DCARRIE%2BSOTO%2BIS%2BBACK%2BTaylor%2BJenkins%2BReid%26aff%3DNYT"
+            }
+          ],
+          "book_uri": "nyt://book/6c803fcf-d473-561a-bff4-70afb1394a28"
+        },
+        {
+          "rank": 4,
+          "rank_last_week": 4,
+          "weeks_on_list": 4,
+          "asterisk": 0,
+          "dagger": 0,
+          "primary_isbn10": "0593496477",
+          "primary_isbn13": "9780593496473",
+          "publisher": "Bantam",
+          "description": "A journalist who returns to her hometown vows to find a missing girl and solve a 20-year-old cold case.",
+          "price": "0.00",
+          "title": "ALL GOOD PEOPLE HERE",
+          "author": "Ashley Flowers with Alex Kiester",
+          "contributor": "by Ashley Flowers with Alex Kiester",
+          "contributor_note": "",
+          "book_image": "https://storage.googleapis.com/du-prd/books/images/9780593496473.jpg",
+          "book_image_width": 329,
+          "book_image_height": 500,
+          "amazon_product_url": "https://www.amazon.com/dp/0593496477?tag=NYTBSREV-20",
+          "age_group": "",
+          "book_review_link": "",
+          "first_chapter_link": "",
+          "sunday_review_link": "",
+          "article_chapter_link": "",
+          "isbns": [
+            {
+              "isbn10": "0593496477",
+              "isbn13": "9780593496473"
+            },
+            {
+              "isbn10": "0593496485",
+              "isbn13": "9780593496480"
+            }
+          ],
+          "buy_links": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/dp/0593496477?tag=NYTBSREV-20"
+            },
+            {
+              "name": "Apple Books",
+              "url": "https://goto.applebooks.apple/9780593496473?at=10lIEQ"
+            },
+            {
+              "name": "Barnes and Noble",
+              "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780593496473"
+            },
+            {
+              "name": "Books-A-Million",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fp%252FALL%252BGOOD%252BPEOPLE%252BHERE%252FAshley%252BFlowers%252Bwith%252BAlex%252BKiester%252F9780593496473&url2=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fsearch%253Fquery%253DALL%252BGOOD%252BPEOPLE%252BHERE%252BAshley%252BFlowers%252Bwith%252BAlex%252BKiester"
+            },
+            {
+              "name": "Bookshop",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fbookshop.org%2Fa%2F3546%2F9780593496473&url2=https%3A%2F%2Fbookshop.org%2Fbooks%3Faffiliate%3D3546%26keywords%3DALL%2BGOOD%2BPEOPLE%2BHERE"
+            },
+            {
+              "name": "IndieBound",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.indiebound.org%2Fbook%2F9780593496473%3Faff%3DNYT&url2=https%3A%2F%2Fwww.indiebound.org%2Fsearch%2Fbook%3Fkeys%3DALL%2BGOOD%2BPEOPLE%2BHERE%2BAshley%2BFlowers%2Bwith%2BAlex%2BKiester%26aff%3DNYT"
+            }
+          ],
+          "book_uri": "nyt://book/bcd83101-adb5-5ef7-aa35-9514fbe16961"
+        },
+        {
+          "rank": 5,
+          "rank_last_week": 0,
+          "weeks_on_list": 1,
+          "asterisk": 0,
+          "dagger": 0,
+          "primary_isbn10": "059332062X",
+          "primary_isbn13": "9780593320624",
+          "publisher": "Knopf",
+          "description": "In 1550s Florence, the future of the third daughter of the grand duke seems uncertain after she is thrust into a marriage.",
+          "price": "0.00",
+          "title": "THE MARRIAGE PORTRAIT",
+          "author": "Maggie O'Farrell",
+          "contributor": "by Maggie O'Farrell",
+          "contributor_note": "",
+          "book_image": "https://storage.googleapis.com/du-prd/books/images/9780593320624.jpg",
+          "book_image_width": 338,
+          "book_image_height": 500,
+          "amazon_product_url": "https://www.amazon.com/dp/059332062X?tag=NYTBSREV-20",
+          "age_group": "",
+          "book_review_link": "",
+          "first_chapter_link": "",
+          "sunday_review_link": "",
+          "article_chapter_link": "",
+          "isbns": [
+            {
+              "isbn10": "059332062X",
+              "isbn13": "9780593320624"
+            }
+          ],
+          "buy_links": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/dp/059332062X?tag=NYTBSREV-20"
+            },
+            {
+              "name": "Apple Books",
+              "url": "https://goto.applebooks.apple/9780593320624?at=10lIEQ"
+            },
+            {
+              "name": "Barnes and Noble",
+              "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780593320624"
+            },
+            {
+              "name": "Books-A-Million",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fp%252FTHE%252BMARRIAGE%252BPORTRAIT%252FMaggie%252BO%252527Farrell%252F9780593320624&url2=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fsearch%253Fquery%253DTHE%252BMARRIAGE%252BPORTRAIT%252BMaggie%252BO%252527Farrell"
+            },
+            {
+              "name": "Bookshop",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fbookshop.org%2Fa%2F3546%2F9780593320624&url2=https%3A%2F%2Fbookshop.org%2Fbooks%3Faffiliate%3D3546%26keywords%3DTHE%2BMARRIAGE%2BPORTRAIT"
+            },
+            {
+              "name": "IndieBound",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.indiebound.org%2Fbook%2F9780593320624%3Faff%3DNYT&url2=https%3A%2F%2Fwww.indiebound.org%2Fsearch%2Fbook%3Fkeys%3DTHE%2BMARRIAGE%2BPORTRAIT%2BMaggie%2BO%2527Farrell%26aff%3DNYT"
+            }
+          ],
+          "book_uri": "nyt://book/e86b5482-50be-5b4b-9753-b5339622b880"
+        },
+        {
+          "rank": 6,
+          "rank_last_week": 6,
+          "weeks_on_list": 9,
+          "asterisk": 0,
+          "dagger": 0,
+          "primary_isbn10": "1538719843",
+          "primary_isbn13": "9781538719848",
+          "publisher": "Grand Central",
+          "description": "When his ex-girlfriend turns up dead in his office building, an entry-level investment analyst delves into the halls of economic power.",
+          "price": "0.00",
+          "title": "THE 6:20 MAN",
+          "author": "David Baldacci",
+          "contributor": "by David Baldacci",
+          "contributor_note": "",
+          "book_image": "https://storage.googleapis.com/du-prd/books/images/9781538719848.jpg",
+          "book_image_width": 330,
+          "book_image_height": 500,
+          "amazon_product_url": "https://www.amazon.com/dp/1538719843?tag=NYTBSREV-20",
+          "age_group": "",
+          "book_review_link": "",
+          "first_chapter_link": "",
+          "sunday_review_link": "",
+          "article_chapter_link": "",
+          "isbns": [
+            {
+              "isbn10": "1538719843",
+              "isbn13": "9781538719848"
+            },
+            {
+              "isbn10": "1538719886",
+              "isbn13": "9781538719886"
+            },
+            {
+              "isbn10": "1538719878",
+              "isbn13": "9781538719879"
+            },
+            {
+              "isbn10": "1549160664",
+              "isbn13": "9781549160660"
+            },
+            {
+              "isbn10": "1549160656",
+              "isbn13": "9781549160653"
+            },
+            {
+              "isbn10": "1668617048",
+              "isbn13": "9781668617045"
+            },
+            {
+              "isbn10": "1668617056",
+              "isbn13": "9781668617052"
+            }
+          ],
+          "buy_links": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/dp/1538719843?tag=NYTBSREV-20"
+            },
+            {
+              "name": "Apple Books",
+              "url": "https://goto.applebooks.apple/9781538719848?at=10lIEQ"
+            },
+            {
+              "name": "Barnes and Noble",
+              "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781538719848"
+            },
+            {
+              "name": "Books-A-Million",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fp%252FTHE%252B6%25253A20%252BMAN%252FDavid%252BBaldacci%252F9781538719848&url2=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fsearch%253Fquery%253DTHE%252B6%25253A20%252BMAN%252BDavid%252BBaldacci"
+            },
+            {
+              "name": "Bookshop",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fbookshop.org%2Fa%2F3546%2F9781538719848&url2=https%3A%2F%2Fbookshop.org%2Fbooks%3Faffiliate%3D3546%26keywords%3DTHE%2B6%253A20%2BMAN"
+            },
+            {
+              "name": "IndieBound",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.indiebound.org%2Fbook%2F9781538719848%3Faff%3DNYT&url2=https%3A%2F%2Fwww.indiebound.org%2Fsearch%2Fbook%3Fkeys%3DTHE%2B6%253A20%2BMAN%2BDavid%2BBaldacci%26aff%3DNYT"
+            }
+          ],
+          "book_uri": "nyt://book/e74242b1-8445-5b50-a286-0bbcc344c87a"
+        },
+        {
+          "rank": 7,
+          "rank_last_week": 0,
+          "weeks_on_list": 1,
+          "asterisk": 0,
+          "dagger": 0,
+          "primary_isbn10": "0593540646",
+          "primary_isbn13": "9780593540640",
+          "publisher": "Putnam",
+          "description": "The 16th book in the Oregon Files series. A criminal syndicate has a torpedo that could obliterate entire cities.",
+          "price": "0.00",
+          "title": "CLIVE CUSSLER'S HELLBURNER",
+          "author": "Mike Maden",
+          "contributor": "by Mike Maden",
+          "contributor_note": "",
+          "book_image": "https://storage.googleapis.com/du-prd/books/images/9780593540640.jpg",
+          "book_image_width": 331,
+          "book_image_height": 500,
+          "amazon_product_url": "https://www.amazon.com/dp/0593540646?tag=NYTBSREV-20",
+          "age_group": "",
+          "book_review_link": "",
+          "first_chapter_link": "",
+          "sunday_review_link": "",
+          "article_chapter_link": "",
+          "isbns": [
+            {
+              "isbn10": "0593540646",
+              "isbn13": "9780593540640"
+            },
+            {
+              "isbn10": "0593540654",
+              "isbn13": "9780593540657"
+            }
+          ],
+          "buy_links": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/dp/0593540646?tag=NYTBSREV-20"
+            },
+            {
+              "name": "Apple Books",
+              "url": "https://goto.applebooks.apple/9780593540640?at=10lIEQ"
+            },
+            {
+              "name": "Barnes and Noble",
+              "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780593540640"
+            },
+            {
+              "name": "Books-A-Million",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fp%252FCLIVE%252BCUSSLER%252527S%252BHELLBURNER%252FMike%252BMaden%252F9780593540640&url2=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fsearch%253Fquery%253DCLIVE%252BCUSSLER%252527S%252BHELLBURNER%252BMike%252BMaden"
+            },
+            {
+              "name": "Bookshop",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fbookshop.org%2Fa%2F3546%2F9780593540640&url2=https%3A%2F%2Fbookshop.org%2Fbooks%3Faffiliate%3D3546%26keywords%3DCLIVE%2BCUSSLER%2527S%2BHELLBURNER"
+            },
+            {
+              "name": "IndieBound",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.indiebound.org%2Fbook%2F9780593540640%3Faff%3DNYT&url2=https%3A%2F%2Fwww.indiebound.org%2Fsearch%2Fbook%3Fkeys%3DCLIVE%2BCUSSLER%2527S%2BHELLBURNER%2BMike%2BMaden%26aff%3DNYT"
+            }
+          ],
+          "book_uri": "nyt://book/0ae55bd4-8a7d-5c39-bdd4-fc1b556d0d74"
+        },
+        {
+          "rank": 8,
+          "rank_last_week": 0,
+          "weeks_on_list": 1,
+          "asterisk": 0,
+          "dagger": 0,
+          "primary_isbn10": "0593297288",
+          "primary_isbn13": "9780593297285",
+          "publisher": "Viking",
+          "description": "The 18th book in the Longmire series. Sheriff Longmire finds an adversary in himself.",
+          "price": "0.00",
+          "title": "HELL AND BACK",
+          "author": "Craig Johnson",
+          "contributor": "by Craig Johnson",
+          "contributor_note": "",
+          "book_image": "https://storage.googleapis.com/du-prd/books/images/9780593297285.jpg",
+          "book_image_width": 331,
+          "book_image_height": 500,
+          "amazon_product_url": "https://www.amazon.com/dp/0593297288?tag=NYTBSREV-20",
+          "age_group": "",
+          "book_review_link": "",
+          "first_chapter_link": "",
+          "sunday_review_link": "",
+          "article_chapter_link": "",
+          "isbns": [
+            {
+              "isbn10": "0593297288",
+              "isbn13": "9780593297285"
+            },
+            {
+              "isbn10": "0593297296",
+              "isbn13": "9780593297292"
+            }
+          ],
+          "buy_links": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/dp/0593297288?tag=NYTBSREV-20"
+            },
+            {
+              "name": "Apple Books",
+              "url": "https://goto.applebooks.apple/9780593297285?at=10lIEQ"
+            },
+            {
+              "name": "Barnes and Noble",
+              "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780593297285"
+            },
+            {
+              "name": "Books-A-Million",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fp%252FHELL%252BAND%252BBACK%252FCraig%252BJohnson%252F9780593297285&url2=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fsearch%253Fquery%253DHELL%252BAND%252BBACK%252BCraig%252BJohnson"
+            },
+            {
+              "name": "Bookshop",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fbookshop.org%2Fa%2F3546%2F9780593297285&url2=https%3A%2F%2Fbookshop.org%2Fbooks%3Faffiliate%3D3546%26keywords%3DHELL%2BAND%2BBACK"
+            },
+            {
+              "name": "IndieBound",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.indiebound.org%2Fbook%2F9780593297285%3Faff%3DNYT&url2=https%3A%2F%2Fwww.indiebound.org%2Fsearch%2Fbook%3Fkeys%3DHELL%2BAND%2BBACK%2BCraig%2BJohnson%26aff%3DNYT"
+            }
+          ],
+          "book_uri": "nyt://book/dc5a67bb-a9ca-52cd-a2d8-dbf0bd91a492"
+        },
+        {
+          "rank": 9,
+          "rank_last_week": 0,
+          "weeks_on_list": 1,
+          "asterisk": 0,
+          "dagger": 0,
+          "primary_isbn10": "0593200683",
+          "primary_isbn13": "9780593200681",
+          "publisher": "Berkley",
+          "description": "Four women who spent 40 years working as assassins have targets on their backs as they enter retirement.",
+          "price": "0.00",
+          "title": "KILLERS OF A CERTAIN AGE",
+          "author": "Deanna Raybourn",
+          "contributor": "by Deanna Raybourn",
+          "contributor_note": "",
+          "book_image": "https://storage.googleapis.com/du-prd/books/images/9780593200681.jpg",
+          "book_image_width": 333,
+          "book_image_height": 500,
+          "amazon_product_url": "https://www.amazon.com/dp/0593200683?tag=NYTBSREV-20",
+          "age_group": "",
+          "book_review_link": "",
+          "first_chapter_link": "",
+          "sunday_review_link": "",
+          "article_chapter_link": "",
+          "isbns": [
+            {
+              "isbn10": "0593200683",
+              "isbn13": "9780593200681"
+            }
+          ],
+          "buy_links": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/dp/0593200683?tag=NYTBSREV-20"
+            },
+            {
+              "name": "Apple Books",
+              "url": "https://goto.applebooks.apple/9780593200681?at=10lIEQ"
+            },
+            {
+              "name": "Barnes and Noble",
+              "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780593200681"
+            },
+            {
+              "name": "Books-A-Million",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fp%252FKILLERS%252BOF%252BA%252BCERTAIN%252BAGE%252FDeanna%252BRaybourn%252F9780593200681&url2=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fsearch%253Fquery%253DKILLERS%252BOF%252BA%252BCERTAIN%252BAGE%252BDeanna%252BRaybourn"
+            },
+            {
+              "name": "Bookshop",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fbookshop.org%2Fa%2F3546%2F9780593200681&url2=https%3A%2F%2Fbookshop.org%2Fbooks%3Faffiliate%3D3546%26keywords%3DKILLERS%2BOF%2BA%2BCERTAIN%2BAGE"
+            },
+            {
+              "name": "IndieBound",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.indiebound.org%2Fbook%2F9780593200681%3Faff%3DNYT&url2=https%3A%2F%2Fwww.indiebound.org%2Fsearch%2Fbook%3Fkeys%3DKILLERS%2BOF%2BA%2BCERTAIN%2BAGE%2BDeanna%2BRaybourn%26aff%3DNYT"
+            }
+          ],
+          "book_uri": "nyt://book/e4c35c98-ea56-589b-a8ab-c9d6167cf1b6"
+        },
+        {
+          "rank": 10,
+          "rank_last_week": 2,
+          "weeks_on_list": 2,
+          "asterisk": 0,
+          "dagger": 0,
+          "primary_isbn10": "0316413038",
+          "primary_isbn13": "9780316413039",
+          "publisher": "Mulholland",
+          "description": "The sixth book in the Cormoran Strike series. When a cartoonist is murdered, Cormoran and Robin go after a mysterious online figure known as Anomie.",
+          "price": "0.00",
+          "title": "THE INK BLACK HEART",
+          "author": "Robert Galbraith",
+          "contributor": "by Robert Galbraith",
+          "contributor_note": "",
+          "book_image": "https://storage.googleapis.com/du-prd/books/images/9780316413039.jpg",
+          "book_image_width": 321,
+          "book_image_height": 500,
+          "amazon_product_url": "https://www.amazon.com/dp/0316413038?tag=NYTBSREV-20",
+          "age_group": "",
+          "book_review_link": "",
+          "first_chapter_link": "",
+          "sunday_review_link": "",
+          "article_chapter_link": "",
+          "isbns": [
+            {
+              "isbn10": "0316413038",
+              "isbn13": "9780316413039"
+            },
+            {
+              "isbn10": "0316473537",
+              "isbn13": "9780316473538"
+            },
+            {
+              "isbn10": "0316413232",
+              "isbn13": "9780316413237"
+            },
+            {
+              "isbn10": "1668600838",
+              "isbn13": "9781668600832"
+            },
+            {
+              "isbn10": "1668617676",
+              "isbn13": "9781668617670"
+            }
+          ],
+          "buy_links": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/dp/0316413038?tag=NYTBSREV-20"
+            },
+            {
+              "name": "Apple Books",
+              "url": "https://goto.applebooks.apple/9780316413039?at=10lIEQ"
+            },
+            {
+              "name": "Barnes and Noble",
+              "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780316413039"
+            },
+            {
+              "name": "Books-A-Million",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fp%252FTHE%252BINK%252BBLACK%252BHEART%252FRobert%252BGalbraith%252F9780316413039&url2=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fsearch%253Fquery%253DTHE%252BINK%252BBLACK%252BHEART%252BRobert%252BGalbraith"
+            },
+            {
+              "name": "Bookshop",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fbookshop.org%2Fa%2F3546%2F9780316413039&url2=https%3A%2F%2Fbookshop.org%2Fbooks%3Faffiliate%3D3546%26keywords%3DTHE%2BINK%2BBLACK%2BHEART"
+            },
+            {
+              "name": "IndieBound",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.indiebound.org%2Fbook%2F9780316413039%3Faff%3DNYT&url2=https%3A%2F%2Fwww.indiebound.org%2Fsearch%2Fbook%3Fkeys%3DTHE%2BINK%2BBLACK%2BHEART%2BRobert%2BGalbraith%26aff%3DNYT"
+            }
+          ],
+          "book_uri": "nyt://book/03c4a565-bbd1-5f64-900a-d52b6ac0342f"
+        },
+        {
+          "rank": 11,
+          "rank_last_week": 0,
+          "weeks_on_list": 62,
+          "asterisk": 0,
+          "dagger": 0,
+          "primary_isbn10": "1501171348",
+          "primary_isbn13": "9781501171345",
+          "publisher": "Simon & Schuster",
+          "description": "Hannah Hall discovers truths about her missing husband and bonds with his daughter from a previous relationship.",
+          "price": "0.00",
+          "title": "THE LAST THING HE TOLD ME",
+          "author": "Laura Dave",
+          "contributor": "by Laura Dave",
+          "contributor_note": "",
+          "book_image": "https://storage.googleapis.com/du-prd/books/images/9781501171345.jpg",
+          "book_image_width": 331,
+          "book_image_height": 500,
+          "amazon_product_url": "https://www.amazon.com/dp/1501171348?tag=NYTBSREV-20",
+          "age_group": "",
+          "book_review_link": "",
+          "first_chapter_link": "",
+          "sunday_review_link": "",
+          "article_chapter_link": "",
+          "isbns": [
+            {
+              "isbn10": "1501171348",
+              "isbn13": "9781501171345"
+            },
+            {
+              "isbn10": "1501171364",
+              "isbn13": "9781501171369"
+            },
+            {
+              "isbn10": "1797124749",
+              "isbn13": "9781797124742"
+            },
+            {
+              "isbn10": "1638080992",
+              "isbn13": "9781638080992"
+            }
+          ],
+          "buy_links": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/dp/1501171348?tag=NYTBSREV-20"
+            },
+            {
+              "name": "Apple Books",
+              "url": "https://goto.applebooks.apple/9781501171345?at=10lIEQ"
+            },
+            {
+              "name": "Barnes and Noble",
+              "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781501171345"
+            },
+            {
+              "name": "Books-A-Million",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fp%252FTHE%252BLAST%252BTHING%252BHE%252BTOLD%252BME%252FLaura%252BDave%252F9781501171345&url2=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fsearch%253Fquery%253DTHE%252BLAST%252BTHING%252BHE%252BTOLD%252BME%252BLaura%252BDave"
+            },
+            {
+              "name": "Bookshop",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fbookshop.org%2Fa%2F3546%2F9781501171345&url2=https%3A%2F%2Fbookshop.org%2Fbooks%3Faffiliate%3D3546%26keywords%3DTHE%2BLAST%2BTHING%2BHE%2BTOLD%2BME"
+            },
+            {
+              "name": "IndieBound",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.indiebound.org%2Fbook%2F9781501171345%3Faff%3DNYT&url2=https%3A%2F%2Fwww.indiebound.org%2Fsearch%2Fbook%3Fkeys%3DTHE%2BLAST%2BTHING%2BHE%2BTOLD%2BME%2BLaura%2BDave%26aff%3DNYT"
+            }
+          ],
+          "book_uri": "nyt://book/b38ae769-e873-5272-bb5a-c58a35162db1"
+        },
+        {
+          "rank": 12,
+          "rank_last_week": 3,
+          "weeks_on_list": 2,
+          "asterisk": 0,
+          "dagger": 0,
+          "primary_isbn10": "1250019869",
+          "primary_isbn13": "9781250019868",
+          "publisher": "St. Martin's",
+          "description": "When she takes over her deceased mother’s apartment, Zoey has strange encounters with her new neighbors.",
+          "price": "0.00",
+          "title": "OTHER BIRDS",
+          "author": "Sarah Addison Allen",
+          "contributor": "by Sarah Addison Allen",
+          "contributor_note": "",
+          "book_image": "https://storage.googleapis.com/du-prd/books/images/9781250019868.jpg",
+          "book_image_width": 329,
+          "book_image_height": 500,
+          "amazon_product_url": "https://www.amazon.com/dp/1250019869?tag=NYTBSREV-20",
+          "age_group": "",
+          "book_review_link": "",
+          "first_chapter_link": "",
+          "sunday_review_link": "",
+          "article_chapter_link": "",
+          "isbns": [
+            {
+              "isbn10": "1250019869",
+              "isbn13": "9781250019868"
+            },
+            {
+              "isbn10": "1250019885",
+              "isbn13": "9781250019882"
+            }
+          ],
+          "buy_links": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/dp/1250019869?tag=NYTBSREV-20"
+            },
+            {
+              "name": "Apple Books",
+              "url": "https://goto.applebooks.apple/9781250019868?at=10lIEQ"
+            },
+            {
+              "name": "Barnes and Noble",
+              "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781250019868"
+            },
+            {
+              "name": "Books-A-Million",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fp%252FOTHER%252BBIRDS%252FSarah%252BAddison%252BAllen%252F9781250019868&url2=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fsearch%253Fquery%253DOTHER%252BBIRDS%252BSarah%252BAddison%252BAllen"
+            },
+            {
+              "name": "Bookshop",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fbookshop.org%2Fa%2F3546%2F9781250019868&url2=https%3A%2F%2Fbookshop.org%2Fbooks%3Faffiliate%3D3546%26keywords%3DOTHER%2BBIRDS"
+            },
+            {
+              "name": "IndieBound",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.indiebound.org%2Fbook%2F9781250019868%3Faff%3DNYT&url2=https%3A%2F%2Fwww.indiebound.org%2Fsearch%2Fbook%3Fkeys%3DOTHER%2BBIRDS%2BSarah%2BAddison%2BAllen%26aff%3DNYT"
+            }
+          ],
+          "book_uri": "nyt://book/3f4e7a23-1038-5e29-a130-3b2c02639340"
+        },
+        {
+          "rank": 13,
+          "rank_last_week": 8,
+          "weeks_on_list": 19,
+          "asterisk": 0,
+          "dagger": 0,
+          "primary_isbn10": "038554734X",
+          "primary_isbn13": "9780385547345",
+          "publisher": "Doubleday",
+          "description": "A scientist and single mother living in California in the 1960s becomes a star on a TV cooking show.",
+          "price": "0.00",
+          "title": "LESSONS IN CHEMISTRY",
+          "author": "Bonnie Garmus",
+          "contributor": "by Bonnie Garmus",
+          "contributor_note": "",
+          "book_image": "https://storage.googleapis.com/du-prd/books/images/9780385547345.jpg",
+          "book_image_width": 328,
+          "book_image_height": 500,
+          "amazon_product_url": "https://www.amazon.com/dp/038554734X?tag=NYTBSREV-20",
+          "age_group": "",
+          "book_review_link": "",
+          "first_chapter_link": "",
+          "sunday_review_link": "",
+          "article_chapter_link": "",
+          "isbns": [
+            {
+              "isbn10": "038554734X",
+              "isbn13": "9780385547345"
+            },
+            {
+              "isbn10": "0593507533",
+              "isbn13": "9780593507537"
+            }
+          ],
+          "buy_links": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/dp/038554734X?tag=NYTBSREV-20"
+            },
+            {
+              "name": "Apple Books",
+              "url": "https://goto.applebooks.apple/9780385547345?at=10lIEQ"
+            },
+            {
+              "name": "Barnes and Noble",
+              "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780385547345"
+            },
+            {
+              "name": "Books-A-Million",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fp%252FLESSONS%252BIN%252BCHEMISTRY%252FBonnie%252BGarmus%252F9780385547345&url2=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fsearch%253Fquery%253DLESSONS%252BIN%252BCHEMISTRY%252BBonnie%252BGarmus"
+            },
+            {
+              "name": "Bookshop",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fbookshop.org%2Fa%2F3546%2F9780385547345&url2=https%3A%2F%2Fbookshop.org%2Fbooks%3Faffiliate%3D3546%26keywords%3DLESSONS%2BIN%2BCHEMISTRY"
+            },
+            {
+              "name": "IndieBound",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.indiebound.org%2Fbook%2F9780385547345%3Faff%3DNYT&url2=https%3A%2F%2Fwww.indiebound.org%2Fsearch%2Fbook%3Fkeys%3DLESSONS%2BIN%2BCHEMISTRY%2BBonnie%2BGarmus%26aff%3DNYT"
+            }
+          ],
+          "book_uri": "nyt://book/717e0ead-9782-567d-af27-d9a6cfb1856f"
+        },
+        {
+          "rank": 14,
+          "rank_last_week": 10,
+          "weeks_on_list": 92,
+          "asterisk": 0,
+          "dagger": 0,
+          "primary_isbn10": "0525559477",
+          "primary_isbn13": "9780525559474",
+          "publisher": "Viking",
+          "description": "Nora Seed finds a library beyond the edge of the universe that contains books with multiple possibilities of the lives one could have lived.",
+          "price": "0.00",
+          "title": "THE MIDNIGHT LIBRARY",
+          "author": "Matt Haig",
+          "contributor": "by Matt Haig",
+          "contributor_note": "",
+          "book_image": "https://storage.googleapis.com/du-prd/books/images/9780525559474.jpg",
+          "book_image_width": 331,
+          "book_image_height": 500,
+          "amazon_product_url": "https://www.amazon.com/dp/0525559477?tag=NYTBSREV-20",
+          "age_group": "",
+          "book_review_link": "",
+          "first_chapter_link": "",
+          "sunday_review_link": "",
+          "article_chapter_link": "",
+          "isbns": [
+            {
+              "isbn10": "0525559477",
+              "isbn13": "9780525559474"
+            },
+            {
+              "isbn10": "0525559485",
+              "isbn13": "9780525559481"
+            },
+            {
+              "isbn10": "0655697071",
+              "isbn13": "9780655697077"
+            }
+          ],
+          "buy_links": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/dp/0525559477?tag=NYTBSREV-20"
+            },
+            {
+              "name": "Apple Books",
+              "url": "https://goto.applebooks.apple/9780525559474?at=10lIEQ"
+            },
+            {
+              "name": "Barnes and Noble",
+              "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780525559474"
+            },
+            {
+              "name": "Books-A-Million",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fp%252FTHE%252BMIDNIGHT%252BLIBRARY%252FMatt%252BHaig%252F9780525559474&url2=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fsearch%253Fquery%253DTHE%252BMIDNIGHT%252BLIBRARY%252BMatt%252BHaig"
+            },
+            {
+              "name": "Bookshop",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fbookshop.org%2Fa%2F3546%2F9780525559474&url2=https%3A%2F%2Fbookshop.org%2Fbooks%3Faffiliate%3D3546%26keywords%3DTHE%2BMIDNIGHT%2BLIBRARY"
+            },
+            {
+              "name": "IndieBound",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.indiebound.org%2Fbook%2F9780525559474%3Faff%3DNYT&url2=https%3A%2F%2Fwww.indiebound.org%2Fsearch%2Fbook%3Fkeys%3DTHE%2BMIDNIGHT%2BLIBRARY%2BMatt%2BHaig%26aff%3DNYT"
+            }
+          ],
+          "book_uri": "nyt://book/60d0ee2d-3d05-50c9-a484-050d17a2308e"
+        },
+        {
+          "rank": 15,
+          "rank_last_week": 0,
+          "weeks_on_list": 1,
+          "asterisk": 0,
+          "dagger": 0,
+          "primary_isbn10": "1250204534",
+          "primary_isbn13": "9781250204530",
+          "publisher": "Minotaur",
+          "description": "The 10th book in the Vera Stanhope series. A member of a group of friends is found hanged after being fired because of potential misconduct.",
+          "price": "0.00",
+          "title": "THE RISING TIDE",
+          "author": "Ann Cleeves",
+          "contributor": "by Ann Cleeves",
+          "contributor_note": "",
+          "book_image": "https://storage.googleapis.com/du-prd/books/images/9781250204530.jpg",
+          "book_image_width": 329,
+          "book_image_height": 500,
+          "amazon_product_url": "https://www.amazon.com/dp/1250204534?tag=NYTBSREV-20",
+          "age_group": "",
+          "book_review_link": "",
+          "first_chapter_link": "",
+          "sunday_review_link": "",
+          "article_chapter_link": "",
+          "isbns": [
+            {
+              "isbn10": "1250204534",
+              "isbn13": "9781250204530"
+            }
+          ],
+          "buy_links": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/dp/1250204534?tag=NYTBSREV-20"
+            },
+            {
+              "name": "Apple Books",
+              "url": "https://goto.applebooks.apple/9781250204530?at=10lIEQ"
+            },
+            {
+              "name": "Barnes and Noble",
+              "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781250204530"
+            },
+            {
+              "name": "Books-A-Million",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fp%252FTHE%252BRISING%252BTIDE%252FAnn%252BCleeves%252F9781250204530&url2=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-7990613-35140%3Furl%3Dhttps%253A%252F%252Fwww.booksamillion.com%252Fsearch%253Fquery%253DTHE%252BRISING%252BTIDE%252BAnn%252BCleeves"
+            },
+            {
+              "name": "Bookshop",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fbookshop.org%2Fa%2F3546%2F9781250204530&url2=https%3A%2F%2Fbookshop.org%2Fbooks%3Faffiliate%3D3546%26keywords%3DTHE%2BRISING%2BTIDE"
+            },
+            {
+              "name": "IndieBound",
+              "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/redirect?url1=https%3A%2F%2Fwww.indiebound.org%2Fbook%2F9781250204530%3Faff%3DNYT&url2=https%3A%2F%2Fwww.indiebound.org%2Fsearch%2Fbook%3Fkeys%3DTHE%2BRISING%2BTIDE%2BAnn%2BCleeves%26aff%3DNYT"
+            }
+          ],
+          "book_uri": "nyt://book/3309ff2b-6c6c-55a2-ad3b-fd5d13280fa3"
+        }
+      ],
+      "corrections": [
+        
+      ]
+    }
+  }

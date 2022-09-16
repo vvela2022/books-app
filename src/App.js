@@ -3,11 +3,13 @@ import Footer from './components/Footer'
 import Main from './components/Main';
 
 
-function App() {
+
+function App(props) {
+
   return (
     <div className="App">
       <Header />
-      <Main />
+      <Main bookData={props.bookData}/>
       <Footer />
     </div>
   );
