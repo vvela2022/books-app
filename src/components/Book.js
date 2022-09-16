@@ -1,7 +1,7 @@
 const Book = (props) => {
-    return(
-        <img src={props.img}></img>
-    )
+    // return(
+    //     <img src={props.img}></img>
+    // )
 }
 
 export default Book
