@@ -1,4 +1,3 @@
-import Book from './Book'
 import {Routes, Route} from 'react-router-dom'
 import Books from '../pages/Books'
 import Show from '../pages/Show'
