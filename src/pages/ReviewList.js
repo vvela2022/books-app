@@ -4,13 +4,15 @@ import {Link} from 'react-router-dom'
 
 
 
-const Books = () => {
+const ReviewList = () => {
 
 const [books, setBooks] = useState([])
 console.log(books)
 
 useEffect(() => {
-    const BASE_URL = process.env.REACT_APP_URL
+    // const BASE_URL = process.env.REACT_APP_URL
+    const API_KEY = process.env.REACT_APP_API_KEY
+    const BASE_URL = process.env.REACT_APP_URL + `/overview.json?${API_KEY}`
     console.log(BASE_URL)
     fetch(BASE_URL)
     .then((res) => res.json())
@@ -26,11 +28,11 @@ if(!books) {
     return <p>Loading book information...</p>
 }
     return(
-        <div className='Books-Page'>
+        <div className='ReviewList-Page'>
             {books.map((book,idx) => {
                 return(
-                    <div className='card-image'>
-                         <Link to={`/booklist/${book.list_id}`} key={book.list_id}>
+                    <div className='review-list'>
+                         <Link to={`/lists/${book.list_name_encoded}`} key={book.list_name_encoded}>
 
                         {/* <img
                             src={book.books.book_image}
@@ -48,4 +50,4 @@ if(!books) {
     )
 }
 
-export default Books;
+export default ReviewList;
