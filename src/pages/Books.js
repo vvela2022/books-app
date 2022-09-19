@@ -3,13 +3,15 @@ import {Link} from 'react-router-dom'
 
 
 
+
 const Books = () => {
 
 const [books, setBooks] = useState([])
 console.log(books)
 
 useEffect(() => {
-    const BASE_URL = 'https://api.nytimes.com/svc/books/v3/lists/overview.json?api-key=kZKvKTZo9L930Fka6HRCZkxoTk6DK3wQ'
+    // const BASE_URL = 'https://api.nytimes.com/svc/books/v3/lists/overview.json?api-key=kZKvKTZo9L930Fka6HRCZkxoTk6DK3wQ'
+    const BASE_URL = process.env.REACT_APP_URL
     console.log(BASE_URL)
     fetch(BASE_URL)
     .then((res) => res.json())
