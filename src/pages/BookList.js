@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react'
 import {useParams} from 'react-router'
+import {Link} from 'react-router-dom'
 
 
 const BookList = () => {
@@ -33,11 +34,17 @@ if(!books) {
         <div className='Book-list'>
             {books.map((book, idx) => {
                 return(
-                    <div>
-                    <img
-                    src={book.book_image}
-                    alt={book.title}
-                    />
+                    <div className='Book-list-container'>
+                        <Link to={`/details/${book.primary_isbn13}`}>
+                        <h4>{book.title}</h4>
+                        </Link>
+                        <p>Author: {book.author}</p>
+                        <p>NY Times Ranking: {book.rank}</p>
+                        <img
+                        src={book.book_image}
+                        alt={book.title}
+                        />
+                       
                     </div> 
               
                 )
