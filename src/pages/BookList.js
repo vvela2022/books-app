@@ -44,6 +44,7 @@ if(!books) {
                         src={book.book_image}
                         alt={book.title}
                         />
+                        <p>Overview: {book.description}</p>
                        
                     </div> 
               

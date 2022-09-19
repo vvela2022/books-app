@@ -1,6 +1,5 @@
 import {useState, useEffect} from 'react'
 import {useParams} from 'react-router'
-import {Link} from 'react-router-dom'
 
 
 const BookDetails = (props) => {
@@ -39,7 +38,7 @@ if(!details) {
                 <div className='review-content'>
                 <h1>Reviews for: {review.book_title}</h1>
                 <p>{review.summary}</p>
-                <a href={review.buy_links[0].url}><p>{review.buy_links[0].name}</p></a>
+                {/* <a href={review.buy_links[0].url}><p>{review.buy_links[0].name}</p></a> */}
                 </div>
             )
         })}
