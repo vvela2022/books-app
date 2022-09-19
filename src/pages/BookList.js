@@ -8,7 +8,6 @@ const [books, setBooks] = useState([])
 const {id} = useParams()
 const API_KEY = process.env.REACT_APP_API_KEY
 const BASE_URL = process.env.REACT_APP_URL + `/current/${id}.json?${API_KEY}`
-// const BASE_URL = `http://api.nytimes.com/svc/books/v3/lists/current/${id}.json?api-key=kZKvKTZo9L930Fka6HRCZkxoTk6DK3wQ`
 console.log(BASE_URL)
 
 const getData = async () => {
@@ -16,7 +15,7 @@ const getData = async () => {
         const response = await fetch(BASE_URL)
         const data = await response.json();
         console.log(data)
-        setBooks(data)
+        setBooks(data.results.books)
     } catch (err){
         console.log(err)
     }
@@ -27,9 +26,22 @@ useEffect(() => {
 }, [])
 
 console.log(books)
+if(!books) {
+    return <p>Loading book information....</p>
+}
     return(
         <div className='Book-list'>
-            <h1>Book List Page</h1>
+            {books.map((book, idx) => {
+                return(
+                    <div>
+                    <img
+                    src={book.book_image}
+                    alt={book.title}
+                    />
+                    </div> 
+              
+                )
+            })}
         </div>
     )
 }

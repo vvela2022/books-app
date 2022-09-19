@@ -10,7 +10,6 @@ const [books, setBooks] = useState([])
 console.log(books)
 
 useEffect(() => {
-    // const BASE_URL = process.env.REACT_APP_URL
     const API_KEY = process.env.REACT_APP_API_KEY
     const BASE_URL = process.env.REACT_APP_URL + `/overview.json?${API_KEY}`
     console.log(BASE_URL)
