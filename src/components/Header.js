@@ -3,7 +3,7 @@ import Nav from "./Nav";
 const Header = () => {
     return(
     <div className='Header'>
-        <h1>Header Component</h1>
+        <h1>Books2Read</h1>
         <Nav />
     </div>
   

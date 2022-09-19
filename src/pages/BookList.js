@@ -27,6 +27,7 @@ useEffect(() => {
 }, [])
 
 console.log(books)
+
 if(!books) {
     return <p>Loading book information....</p>
 }
@@ -35,17 +36,32 @@ if(!books) {
             {books.map((book, idx) => {
                 return(
                     <div className='Book-list-container'>
-                        <Link to={`/details/${book.primary_isbn13}`}>
                         <h4>{book.title}</h4>
-                        </Link>
                         <p>Author: {book.author}</p>
+                        <p>Publisher: {book.publisher}</p>
                         <p>NY Times Ranking: {book.rank}</p>
+                        <p>Weeks on List: {book.weeks_on_list}</p>
+                        <p>Overview: {book.description}</p>
                         <img
                         src={book.book_image}
                         alt={book.title}
                         />
-                        <p>Overview: {book.description}</p>
-                       
+                
+                      
+                        <div className='buy-container'>
+                            <h4>Where to Buy</h4>
+                            <ul>
+                               <a href={book.buy_links[0]}>
+                                <li>{book.buy_links[0].name}</li>
+                                </a> 
+                                <a href={book.buy_links[1]}>
+                                <li>{book.buy_links[1].name}</li>
+                                </a> 
+                                <a href={book.buy_links[2]}>
+                                <li>{book.buy_links[2].name}</li>
+                                </a> 
+                            </ul>
+                        </div>
                     </div> 
               
                 )
