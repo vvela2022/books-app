@@ -7,7 +7,7 @@ const Main = (props) => {
         <main>
             <Routes>
                 <Route path='/' element={<Books />}/>
-                <Route path='/books/:id' element={<Show />}/>
+                <Route path='/booklist/:id' element={<Show />}/>
             </Routes>
         </main>
     )
