@@ -28,6 +28,7 @@ if(!books) {
 }
     return(
         <div className='ReviewList-Page'>
+            <h3>NY Times Best Seller Lists</h3>
             {books.map((book,idx) => {
                 return(
                     <div className='review-list'>
@@ -38,7 +39,6 @@ if(!books) {
                             src={book.books.book_image}
                             alt={book.books.title}
                         /> */}
-                       
                         <h4>{book.display_name}</h4>
                         </Link>
                         </div>

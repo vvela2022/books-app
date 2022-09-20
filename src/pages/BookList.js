@@ -32,7 +32,7 @@ if(!books) {
     return <p>Loading book information....</p>
 }
     return(
-        <div className='Book-list'>
+        <div className='Book-list-page'>
             {books.map((book, idx) => {
                 return(
                     <div className='Book-list-container'>
