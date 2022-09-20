@@ -21,7 +21,6 @@ body {
 h1 {
     /* border-bottom: 3px solid darkgray; */
     text-align: center;
-  
 }
 
 .Nav {
@@ -171,5 +170,10 @@ li {
 /* footer styling */
 .Footer {
     font-size: 12px;
+}
+
+.reviews-container {
+    margin-top: 200px;
+    color: black;
 }
 
