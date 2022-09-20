@@ -33,7 +33,7 @@ if(!books) {
                 return(
                     <div className='review-list'>
                         <div className='list-name'>
-                        <h4>Top 5: {book.display_name}</h4>
+                        <h4>{book.display_name}</h4>
                          <Link to={`/lists/${book.list_name_encoded}`} key={book.list_name_encoded}>
 
                         {/* <img
