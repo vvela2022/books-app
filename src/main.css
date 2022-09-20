@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: black;
+    /* color: rgb(125,125,125); */
+}
+
+.ReviewList-Page {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.review-list {
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    gap: 40px;
+}
+
+.list-name {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    text-align: left;
+    
+}
+
+.preview-image {
+    width: 150px;
+}
