@@ -45,6 +45,7 @@ if(!books) {
                         </div>
                        
                         <div className='information'>
+                            <p><span>Title:</span> {book.title}</p>
                             <p><span>Author:</span> {book.author}</p>
                             <p><span>Publisher:</span> {book.publisher}</p>
                             <p><span>NY Times Ranking: </span>{book.rank}</p>

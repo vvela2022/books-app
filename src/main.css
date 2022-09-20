@@ -34,10 +34,15 @@ h1 {
 }
 
 .review-list {
-    /* border: 1px solid black; */
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 80%;
+    height: 350px;
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
 }
 
 .image-container {
@@ -56,6 +61,7 @@ h1 {
 
 .preview-image {
     width: 150px;
+    box-shadow: 10px 10px 5px;
 }
 
 a {
@@ -90,9 +96,17 @@ a:hover {
 .main-image-container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     margin-bottom: 10px;
-    /* align-items: center; */
+    font-size: 20px;
+    align-items: left;
+    width: 300px;
 }
+
+.main-image-container > img {
+    width: 250px;
+}
+
 
 .information {
     display: flex;
@@ -101,6 +115,12 @@ a:hover {
     width: 500px;
     text-transform: none;
 }
+
+.information > p {
+    margin: 5px;
+}
+
+
 
 span {
     font-weight: bold;
@@ -111,3 +131,9 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+/* footer styling */
+.Footer {
+    font-size: 12px;
+}
+
