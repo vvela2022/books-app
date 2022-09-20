@@ -33,14 +33,16 @@ if(!books) {
                 return(
                     <div className='review-list'>
                         <div className='list-name'>
+                        <h4>Top 5: {book.display_name}</h4>
                          <Link to={`/lists/${book.list_name_encoded}`} key={book.list_name_encoded}>
 
                         {/* <img
                             src={book.books.book_image}
                             alt={book.books.title}
                         /> */}
-                        <h4>{book.display_name}</h4>
+                        <h4>View Full List</h4>
                         </Link>
+                        
                         </div>
                         <div className='image-container'>
                             <img className='preview-image'src={book.books[0].book_image} alt={book.books[0].title}/>

@@ -71,8 +71,12 @@ h1 {
 .list-name {
     /* border: 1px solid black; */
     display: flex;
-    text-align: left;
-    
+    text-align: center;
+    flex-direction: column;
+}
+
+.list-name > h4 {
+    margin: 0px;
 }
 
 .preview-image {
@@ -129,19 +133,24 @@ a:hover {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
     width: 500px;
+    height: 300px;
     text-transform: none;
     /* border: 1px solid black; */
     border-radius: 10px;
-    /* background-color: rgba(36, 34, 34, 0.036) */
-    background-color: rgb(250, 238, 223)
+    background-color: rgba(36, 34, 34, 0.036)
+    /* background-color: rgb(250, 238, 223) */
 }
 
 .information > p {
     margin: 5px;
 }
 
-
+.buy-container {
+    display: flex;
+    flex-direction: column;
+}
 
 span {
     font-weight: bold;
@@ -151,6 +160,12 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 
 /* footer styling */

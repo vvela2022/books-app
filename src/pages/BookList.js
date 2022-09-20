@@ -37,7 +37,7 @@ if(!books) {
                 return(
                     <div className='Book-list-container'>
                          <div class='main-image-container'>
-                            <h4>{book.title}</h4>
+                                <h4>{`#${book.rank} ${book.title}`}</h4>
                             <img
                             src={book.book_image}
                             alt={book.title}
@@ -51,18 +51,19 @@ if(!books) {
                             <p><span>NY Times Ranking: </span>{book.rank}</p>
                             <p><span>Weeks on this list:</span> {book.weeks_on_list}</p>
                             <p><span>Overview: </span>{book.description}</p>
-                            <h4>Where to Buy</h4>
-                            <ul>
-                               <a href={book.buy_links[0].url}>
-                                <li>{book.buy_links[0].name}</li>
-                                </a> 
-                                <a href={book.buy_links[1].url}>
-                                <li>{book.buy_links[1].name}</li>
-                                </a> 
-                                <a href={book.buy_links[2].url}>
-                                <li>{book.buy_links[2].name}</li>
-                                </a> 
-                            </ul>
+                            <div className='buy-container'>
+                                <ul>
+                                    <a href={book.buy_links[0].url}>
+                                    <li>{book.buy_links[0].name} |</li>
+                                    </a> 
+                                    <a href={book.buy_links[1].url}>
+                                    <li>{book.buy_links[1].name} |</li>
+                                    </a> 
+                                    <a href={book.buy_links[2].url}>
+                                    <li>{book.buy_links[2].name}</li>
+                                    </a> 
+                                </ul>
+                            </div>
                         </div>
                     </div> 
               
