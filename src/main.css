@@ -7,11 +7,18 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
+    background-color: antiquewhite
+    /* color: white; */ 
+    
 }
 
+.Header > p {
+    text-align: center;
+    text-transform: none;
+    font-style: italic;
+}
 
 h1 {
-    color: black;
     /* border-bottom: 3px solid darkgray; */
     text-align: center;
   
@@ -19,10 +26,19 @@ h1 {
 
 .Nav {
     /* height: 40px; */
-    text-align: center;
-    border-top: 2px solid lightgray;
-    border-bottom: 2px solid lightgray;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
 
+    /* border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray; */
+    background-color: rgb(51,51,51);
+
+}
+
+.Nav > a {
+    color: white;
 }
 
 .ReviewList-Page {
@@ -81,7 +97,7 @@ a:hover {
     margin-top: 150px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 20px;
 }
 
 .Book-list-container {
@@ -89,7 +105,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     gap: 40px;
-    border-bottom: 1px solid lightgray;
+    /* border-bottom: 2px solid darkgray; */
 
 }
 
@@ -100,11 +116,12 @@ a:hover {
     margin-bottom: 10px;
     font-size: 20px;
     align-items: left;
-    width: 300px;
+    width: 250px;
 }
 
 .main-image-container > img {
     width: 250px;
+    box-shadow: 10px 10px 5px;
 }
 
 
@@ -114,6 +131,10 @@ a:hover {
     flex-wrap: wrap;
     width: 500px;
     text-transform: none;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    /* background-color: rgba(36, 34, 34, 0.036) */
+    background-color: rgb(250, 238, 223)
 }
 
 .information > p {

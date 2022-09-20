@@ -49,7 +49,7 @@ if(!books) {
                             <p><span>Author:</span> {book.author}</p>
                             <p><span>Publisher:</span> {book.publisher}</p>
                             <p><span>NY Times Ranking: </span>{book.rank}</p>
-                            <p><span>Weeks on List:</span> {book.weeks_on_list}</p>
+                            <p><span>Weeks on this list:</span> {book.weeks_on_list}</p>
                             <p><span>Overview: </span>{book.description}</p>
                             <h4>Where to Buy</h4>
                             <ul>

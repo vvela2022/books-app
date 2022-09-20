@@ -4,6 +4,7 @@ const Header = () => {
     return(
     <div className='Header'>
         <h1>Books2Read</h1>
+        <p>A place to browse the NY times best-seller lists and decide what to read next. </p>
         <Nav />
     </div>
   
