@@ -9,7 +9,7 @@ const Main = (props) => {
             <Routes>
                 <Route path='/' element={<Books />}/>
                 <Route path='/lists/:id' element={<Show />}/>
-                {/* <Route path='/details/:id' element={<BookDetails />}/> */}
+                <Route path='/details/:isbn' element={<BookDetails />}/>
             </Routes>
         </main>
     )

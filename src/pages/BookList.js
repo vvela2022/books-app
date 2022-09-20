@@ -37,7 +37,10 @@ if(!books) {
                 return(
                     <div className='Book-list-container'>
                          <div class='main-image-container'>
+                            <Link to={`/details/${book.primary_isbn13}`}>
                                 <h4>{`#${book.rank} ${book.title}`}</h4>
+                            </Link>
+                               
                             <img
                             src={book.book_image}
                             alt={book.title}
