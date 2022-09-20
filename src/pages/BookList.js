@@ -36,28 +36,29 @@ if(!books) {
             {books.map((book, idx) => {
                 return(
                     <div className='Book-list-container'>
-                        <h4>{book.title}</h4>
-                        <p>Author: {book.author}</p>
-                        <p>Publisher: {book.publisher}</p>
-                        <p>NY Times Ranking: {book.rank}</p>
-                        <p>Weeks on List: {book.weeks_on_list}</p>
-                        <p>Overview: {book.description}</p>
-                        <img
-                        src={book.book_image}
-                        alt={book.title}
-                        />
-                
-                      
-                        <div className='buy-container'>
+                         <div class='main-image-container'>
+                            <h4>{book.title}</h4>
+                            <img
+                            src={book.book_image}
+                            alt={book.title}
+                            />
+                        </div>
+                       
+                        <div className='information'>
+                            <p><span>Author:</span> {book.author}</p>
+                            <p><span>Publisher:</span> {book.publisher}</p>
+                            <p><span>NY Times Ranking: </span>{book.rank}</p>
+                            <p><span>Weeks on List:</span> {book.weeks_on_list}</p>
+                            <p><span>Overview: </span>{book.description}</p>
                             <h4>Where to Buy</h4>
                             <ul>
-                               <a href={book.buy_links[0]}>
+                               <a href={book.buy_links[0].url}>
                                 <li>{book.buy_links[0].name}</li>
                                 </a> 
-                                <a href={book.buy_links[1]}>
+                                <a href={book.buy_links[1].url}>
                                 <li>{book.buy_links[1].name}</li>
                                 </a> 
-                                <a href={book.buy_links[2]}>
+                                <a href={book.buy_links[2].url}>
                                 <li>{book.buy_links[2].name}</li>
                                 </a> 
                             </ul>

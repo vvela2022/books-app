@@ -73,4 +73,41 @@ a:hover {
 
 .Book-list-page {
     margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.Book-list-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.main-image-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    /* align-items: center; */
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+    text-transform: none;
+}
+
+span {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
