@@ -52,7 +52,8 @@ if(!books) {
                             <p><span>Weeks on this list:</span> {book.weeks_on_list}</p>
                             <p><span>Overview: </span>{book.description}</p>
                             <div className='buy-container'>
-                                <ul>
+                                <p>Buy Here:</p>
+                                <ul> 
                                     <a href={book.buy_links[0].url}>
                                     <li>{book.buy_links[0].name} |</li>
                                     </a> 

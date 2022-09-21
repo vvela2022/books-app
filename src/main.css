@@ -7,7 +7,8 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: antiquewhite
+    background-color: antiquewhite;
+    font-size: 1.25vw;
     /* color: white; */ 
     
 }
@@ -16,6 +17,7 @@ body {
     text-align: center;
     text-transform: none;
     font-style: italic;
+    font-size: 1vw;
 }
 
 h1 {
@@ -27,13 +29,14 @@ h1 {
 .Nav {
     /* height: 40px; */
     display: flex;
-    height: 30px;
+    height: 3vh;
     align-items: center;
     justify-content: center;
 
     /* border-top: 2px solid lightgray;
     border-bottom: 2px solid lightgray; */
     background-color: rgb(51,51,51);
+    font-size: 1.25vw;
 
 }
 
@@ -42,7 +45,7 @@ h1 {
 }
 
 .ReviewList-Page {
-    margin-top: 150px;
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
     gap: 2vw;
@@ -53,7 +56,8 @@ h1 {
     border: 1px solid black;
     border-radius: 10px;
     min-width: 80%;
-    height: 350px;
+    /* height: 350px; */
+    height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,7 +86,7 @@ h1 {
 
 .preview-image {
     width: 150px;
-    box-shadow: 10px 10px 5px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 a {
@@ -99,17 +103,17 @@ a:hover {
 /* styling for book list page */
 
 .Book-list-page {
-    margin-top: 150px;
+    margin-top: 175px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 3vw;
 }
 
 .Book-list-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 5vw;
     /* border-bottom: 2px solid darkgray; */
 
 }
@@ -119,14 +123,15 @@ a:hover {
     flex-direction: column;
     flex-wrap: wrap;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 1.25vw;
     align-items: left;
-    width: 250px;
+    /* width: 250px; */
+    width: 18vw;
 }
 
 .main-image-container > img {
-    width: 250px;
-    box-shadow: 10px 10px 5px;
+    width: 12vw;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -135,12 +140,14 @@ a:hover {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    width: 500px;
-    height: 300px;
+    /* width: 500px;
+    height: 300px; */
+    width: 40vw;
     text-transform: none;
     /* border: 1px solid black; */
     border-radius: 10px;
-    background-color: rgba(36, 34, 34, 0.036)
+    background-color: rgba(36, 34, 34, 0.036);
+    font-size: 1vw;
     /* background-color: rgb(250, 238, 223) */
 }
 
@@ -151,6 +158,10 @@ a:hover {
 .buy-container {
     display: flex;
     flex-direction: column;
+}
+.buy-container > p {
+    margin: 5px;
+    font-weight: bold;
 }
 
 span {
@@ -174,3 +185,8 @@ li {
     font-size: 12px;
 }
 
+/* @media screen and (max-width: 320px) {
+    body {
+        background-color: purple;
+    }
+} */
