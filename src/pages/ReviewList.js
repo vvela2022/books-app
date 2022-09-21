@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom'
 const ReviewList = () => {
 
 const [books, setBooks] = useState([])
-console.log(books)
+// console.log(books)
 
 useEffect(() => {
     const API_KEY = process.env.REACT_APP_API_KEY
@@ -19,7 +19,8 @@ useEffect(() => {
         setBooks(json.results.lists)
         console.log(books)
     })
-    .catch(console.error)  
+    .catch(console.error)
+    // eslint-disable-next-line  
 },[])
 
 console.log(books)
@@ -35,11 +36,6 @@ if(!books) {
                         <div className='list-name'>
                         <h4>{book.display_name}</h4>
                          <Link to={`/lists/${book.list_name_encoded}`} key={book.list_name_encoded}>
-
-                        {/* <img
-                            src={book.books.book_image}
-                            alt={book.books.title}
-                        /> */}
                         <h4>View Full List</h4>
                         </Link>
                         

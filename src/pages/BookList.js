@@ -1,29 +1,29 @@
 import {useState, useEffect} from 'react'
 import {useParams} from 'react-router'
-import {Link} from 'react-router-dom'
+
 
 
 const BookList = () => {
-
-const [books, setBooks] = useState([])
-const {id} = useParams()
-const API_KEY = process.env.REACT_APP_API_KEY
-const BASE_URL = process.env.REACT_APP_URL + `/current/${id}.json?${API_KEY}`
-console.log(BASE_URL)
-
-const getData = async () => {
-    try{
-        const response = await fetch(BASE_URL)
-        const data = await response.json();
-        console.log(data)
-        setBooks(data.results.books)
-    } catch (err){
-        console.log(err)
-    }
-}
+    const [books, setBooks] = useState([])
+    const {id} = useParams()
 
 useEffect(() => {
-    getData();
+    const getData = async () => {
+        try{
+          
+            const API_KEY = process.env.REACT_APP_API_KEY
+            const BASE_URL = process.env.REACT_APP_URL + `/current/${id}.json?${API_KEY}`
+            console.log(BASE_URL)
+            const response = await fetch(BASE_URL)
+            const data = await response.json();
+            console.log(data)
+            setBooks(data.results.books)
+        } catch (err){
+            console.log(err)
+        }
+    }
+    getData()
+    // eslint-disable-next-line
 }, [])
 
 console.log(books)
