@@ -186,8 +186,46 @@ li {
     font-size: 12px;
 }
 
-/* @media screen and (max-width: 320px) {
+@media screen and (min-width: 650px) and (max-width: 900px) {
     body {
         background-color: purple;
+        font-size: 15px;
     }
-} */
+    .ReviewList-Page {
+        margin-top: 175px;
+        
+    }
+    
+    .review-list {
+        /* height: 350px; */
+        height: 30vh;
+        
+    }
+
+    .preview-image {
+        width: 120px;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    body {
+        background-color: red;
+        font-size: 15px;
+    }
+    .ReviewList-Page {
+        margin-top: 175px;
+        
+    }
+    
+    .review-list {
+        /* height: 350px; */
+        height: 25vh;
+        
+    }
+
+    .preview-image {
+        width: 80px;
+    }
+
+}
