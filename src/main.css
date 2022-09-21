@@ -45,14 +45,14 @@ h1 {
     margin-top: 150px;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 2vw;
     align-items: center;
 }
 
 .review-list {
     border: 1px solid black;
     border-radius: 10px;
-    width: 80%;
+    min-width: 80%;
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -65,7 +65,8 @@ h1 {
     display: flex;
     justify-content: left;
     /* border: 1px solid red; */
-    gap: 80px;
+    /* gap: 80px; */
+    gap: 3vw;
 }
 
 .list-name {
