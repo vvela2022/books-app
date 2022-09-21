@@ -2,6 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-size: 18px;
+    margin:0;
 }
 
 .Header {
@@ -55,9 +56,9 @@ h1 {
 .review-list {
     border: 1px solid black;
     border-radius: 10px;
-    min-width: 80%;
+    min-width: 70%;
     /* height: 350px; */
-    height: 40vh;
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -185,9 +186,10 @@ li {
     font-size: 12px;
 }
 
+/* repsonsive design for review list page */
 @media screen and (min-width: 650px) and (max-width: 900px) {
     body {
-        background-color: purple;
+        /* background-color: purple; */
         font-size: 15px;
     }
     .ReviewList-Page {
@@ -207,33 +209,34 @@ li {
 
 }
 
+
 @media screen and (max-width: 650px) {
     body {
-        background-color: red;
+        /* background-color: red; */
         font-size: 10px;
     }
 
     .Header {
-        font-size: 15px;
+        font-size: 10px;
         /* color: white; */   
     }
     
     .Header > p {
-        font-size: 15px;
+        font-size: 12px;
     }
     .ReviewList-Page {
-        margin-top: 120px;
+        margin-top: 100px;
         
     }
     
     .review-list {
         /* height: 350px; */
-        height: 20vh;
+        height: 22vh;
         
     }
 
     .preview-image {
-        width: 60px;
+        width: 50px;
     }
 
     .list-name {
@@ -248,3 +251,8 @@ li {
     }
 
 }
+
+
+
+/* responsive design for book list page */
+
