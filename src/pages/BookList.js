@@ -13,10 +13,10 @@ useEffect(() => {
           
             const API_KEY = process.env.REACT_APP_API_KEY
             const BASE_URL = process.env.REACT_APP_URL + `/current/${id}.json?${API_KEY}`
-            console.log(BASE_URL)
+            // console.log(BASE_URL)
             const response = await fetch(BASE_URL)
             const data = await response.json();
-            console.log(data)
+            // console.log(data)
             setBooks(data.results.books)
         } catch (err){
             console.log(err)
@@ -26,7 +26,7 @@ useEffect(() => {
     // eslint-disable-next-line
 }, [])
 
-console.log(books)
+// console.log(books)
 
 if(!books) {
     return <p>Loading book information....</p>
