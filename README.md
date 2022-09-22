@@ -3,7 +3,7 @@
 An app to browse the NY times best-seller lists and decide what to read next.
 
 ## App Description
-Books2Read is an application for a user who is looking to review the NYTimes best seller list to help decide which book they would like to read next. Users can see a list of all of the books on the best seller list for a given period. They also have the ability to click on a book and see additional details about that book. Users can view this site on a mobile device as it was responsively designed
+Books2Read is an application for a user who is looking to review the NYTimes best seller list to help decide which book they would like to read next. Users can see a list of all of the books on the best seller list for a given period. A user can also select a list and be taken to another page with the complete list of books as well as additional details for each result. Users can view this site on a mobile device as it was responsively designed.
 
 ## Planning
 ### Wire Frame
