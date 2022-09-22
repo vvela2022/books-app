@@ -11,17 +11,29 @@ Books2Read is an application for a user who is looking to review the NYTimes bes
 
 ## Functionality
 ### Screenshots
+#### Home Page
 ![Home Page](src/assets/home.png)
  - User is able to browse all current NY Times Bestseller Lists
  - User can click on any list and will be taken to the respective NY Times List page
  - This page includes a frozen header for easy navigation
-
+#### NY Times List Page
 ![NY Times List Page](src/assets/nytimeslist.png)
 - User can browse the results of the NY Times List (ie: Hardcover Best-Sellers, Paperback Fiction, etc.)
 - Users can read information about the books including title, author, summary, and where to buy
 
+#### Where to Buy
 ![Where to buy](src/assets/buylinks.png)
 - Users can click on these links and be redirected to the retailer website to purchase a book
+
+#### Code Snipets
+![ReviewList Path](src/assets/Review%20List%20Path.png)
+    - set up path to link to selected NY times list
+![Use Params](src/assets/Use%20Params.png)
+    - used the address parameter to take in that header and use as my key to call the desired page content from the NY times API
+![Map Function](src/assets/Map%20function.png)
+    - implemented a map within another map to display buy links dynamically
+![Media Queries](src/assets/Media%20Queries.png)
+    - utilized media queries for a reponsive design to fit most screen sizes including mobile phones
 
 ## Technologies Used
 - React JS
