@@ -49,20 +49,21 @@ if(!books) {
                             <p><span>Author:</span> {book.author}</p>
                             <p><span>Publisher:</span> {book.publisher}</p>
                             <p><span>NY Times Ranking: </span>{book.rank}</p>
-                            <p><span>Weeks on this list:</span> {book.weeks_on_list}</p>
-                            <p><span>Overview: </span>{book.description}</p>
+                            <p><span>Weeks on this list:</span> {book.weeks_on_list}</p>  
+                            { book.description !== '' &&
+                                <p><span>Overview: </span>{book.description}</p>}
+                           
                             <div className='buy-container'>
                                 <p>Buy Here:</p>
                                 {book.buy_links.map((fact) => {
                                     return(
                                         <ul> 
                                         <a href={fact.url}>
-                                        <li>{fact.name} |</li>
+                                        <li>{fact.name}</li>
                                         </a> 
                                     </ul>
                                     )
                                 })}
-                             
                             </div>
                         </div>
                     </div> 
