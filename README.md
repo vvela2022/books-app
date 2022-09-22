@@ -7,19 +7,20 @@ Books2Read is an application for a user who is looking to review the NYTimes bes
 
 ## Planning
 ### Wire Frame
-![Wireframe](Books2Read Wireframe.jpg)
+![Wireframe](src/assets/Books2Read%20Wireframe.jpg)
 
 ## Functionality
 ### Screenshots
-![Home Page] (src/assets/home.png)
+![Home Page](src/assets/home.png)
  - User is able to browse all current NY Times Bestseller Lists
  - User can click on any list and will be taken to the respective NY Times List page
- 
  - This page includes a frozen header for easy navigation
-![NY Times List Page] (src/assets/nytimeslist.png)
+
+![NY Times List Page](src/assets/nytimeslist.png)
 - User can browse the results of the NY Times List (ie: Hardcover Best-Sellers, Paperback Fiction, etc.)
 - Users can read information about the books including title, author, summary, and where to buy
-![Where to buy] (src/assets/buylinks.png)
+
+![Where to buy](src/assets/buylinks.png)
 - Users can click on these links and be redirected to the retailer website to purchase a book
 
 ## Technologies Used
