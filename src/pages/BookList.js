@@ -42,8 +42,8 @@ if(!books) {
                             src={book.book_image}
                             alt={book.title}
                             />
+                            
                         </div>
-                       
                         <div className='information'>
                             <p><span>Title:</span> {book.title}</p>
                             <p><span>Author:</span> {book.author}</p>
@@ -53,17 +53,16 @@ if(!books) {
                             <p><span>Overview: </span>{book.description}</p>
                             <div className='buy-container'>
                                 <p>Buy Here:</p>
-                                <ul> 
-                                    <a href={book.buy_links[0].url}>
-                                    <li>{book.buy_links[0].name} |</li>
-                                    </a> 
-                                    <a href={book.buy_links[1].url}>
-                                    <li>{book.buy_links[1].name} |</li>
-                                    </a> 
-                                    <a href={book.buy_links[2].url}>
-                                    <li>{book.buy_links[2].name}</li>
-                                    </a> 
-                                </ul>
+                                {book.buy_links.map((fact) => {
+                                    return(
+                                        <ul> 
+                                        <a href={fact.url}>
+                                        <li>{fact.name} |</li>
+                                        </a> 
+                                    </ul>
+                                    )
+                                })}
+                             
                             </div>
                         </div>
                     </div> 

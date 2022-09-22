@@ -41,16 +41,13 @@ if(!books) {
                         
                         </div>
                         <div className='image-container'>
-                            <img className='preview-image'src={book.books[0].book_image} alt={book.books[0].title}/>
-                            <img className='preview-image'src={book.books[1].book_image} alt={book.books[1].title}/>
-                            <img className='preview-image'src={book.books[2].book_image} alt={book.books[2].title}/>
-                            <img className='preview-image'src={book.books[3].book_image} alt={book.books[3].title}/>
-                            <img className='preview-image'src={book.books[4].book_image} alt={book.books[4].title}/>
+                            {book.books.map((img) => {
+                                return (
+                                    <img className='preview-image'src={img.book_image} alt={img.title}/>
+                                )
+                            })} 
                         </div>
-                        
                     </div>
-                    
-                   
                 )
             })}
         </div>
