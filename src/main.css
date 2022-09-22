@@ -3,6 +3,7 @@ body {
     text-transform: uppercase;
     font-size: 18px;
     margin:0;
+    background-color: rgba(255, 235, 205, 0.37);
 }
 
 
@@ -11,20 +12,33 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
+    background-image: url(https://i.imgur.com/0EPU2pH.jpg);
     font-size: 20px;
-    /* color: white; */   
 }
 
 .header-main {
     font-family: 'Comfortaa', cursive;
+    color: rgb(241, 230, 208);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
-.header-main > p {
+.content-main {
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(67, 49, 13, 0.516); */
+    background-color: rgba(26, 19, 6, 0.338);
+}
+
+.content-main > p {
     text-align: center;
     text-transform: none;
     font-style: italic;
     font-size: 15px;
+    margin: 0;
 }
 
 h1 {
@@ -48,7 +62,7 @@ h1 {
 }
 
 .Nav > a {
-    color: white;
+    color: rgb(241, 230, 208);
 }
 
 .ReviewList-Page {
@@ -57,10 +71,11 @@ h1 {
     flex-direction: column;
     gap: 2vw;
     align-items: center;
+    
 }
 
 .review-list {
-    border: 1px solid black;
+    border: 1px dashed black;
     border-radius: 10px;
     min-width: 70%;
     /* height: 350px; */
@@ -69,7 +84,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: antiquewhite;
+    background-color: blanchedalmond;
 }
 
 .image-container {
@@ -89,6 +104,7 @@ h1 {
 
 .list-name > h4 {
     margin: 0px;
+    color: black;
 }
 
 .preview-image {
@@ -97,7 +113,7 @@ h1 {
 }
 
 a {
-    color: black;
+    color: rgb(117, 80, 23);
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -152,9 +168,9 @@ a:hover {
     /* height: 300px; */
     /* width: 40vw; */
     text-transform: none;
-    border: 3px dotted black;
+    border: 1px dashed black;
     border-radius: 10px;
-    background-color: rgba(36, 34, 34, 0.036);
+    background-color: blanchedalmond;
     font-size: 15px;
     /* font-weight: lighter; */
     /* background-color: rgb(250, 238, 223) */
