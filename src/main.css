@@ -317,6 +317,10 @@ li {
         font-size: 12px;
         /* background-color: rgb(250, 238, 223) */
     }
+
+    .information > p > span  {
+        font-size: 13px;
+    }
     
     
 
