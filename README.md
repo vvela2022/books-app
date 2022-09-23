@@ -36,7 +36,7 @@ Books2Read is an application for a user who is looking to review the NYTimes bes
 ## Technologies Used
 - React JS
 - CSS (Flexbox & Media Queries for a responsive mobile-friendly design)
-- NY Times Books API
+- https://developer.nytimes.com/docs/books-product/1/overview
 ## Getting Started
 ### Link to App
 https://books2read1.netlify.app/
