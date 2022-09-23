@@ -26,8 +26,6 @@ Books2Read is an application for a user who is looking to review the NYTimes bes
 - Users can click on these links and be redirected to the retailer website to purchase a book
 
 #### Code Examples
-![ReviewList Path](src/assets/Review%20List%20Path.png)
-    - set up path to link to selected NY times list
 ![Use Params](src/assets/Use%20Params.png)
     - used the address parameter to take in that header and use as my key to call the desired page content from the NY times API
 ![Map Function](src/assets/Map%20function.png)
