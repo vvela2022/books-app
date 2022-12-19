@@ -10,7 +10,7 @@ const List = (props) => {
             {props.books.map((book,idx) => {
                 return(
                     <div className = 'review-list'>
-                        <ListName />
+                        <ListName book={book}/>
                         <Image book={book}/>
                     </div>
                 )
