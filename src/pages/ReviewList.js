@@ -1,5 +1,7 @@
 import {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom'
+import List from "../components/List"
+import Image from "../components/Image"
 
 
 
@@ -28,29 +30,9 @@ if(!books) {
     return <p>Loading book information...</p>
 }
     return(
-        <div className='ReviewList-Page'>
-            <h3>NY Times Best Seller Lists</h3>
-            {books.map((book,idx) => {
-                return(
-                    <div className='review-list'>
-                        <div className='list-name'>
-                        <h4>{book.display_name}</h4>
-                         <Link to={`/lists/${book.list_name_encoded}`} key={book.list_name_encoded}>
-                        <h4>View Full List</h4>
-                        </Link>
-                        
-                        </div>
-                        <div className='image-container'>
-                            {book.books.map((img) => {
-                                return (
-                                    <img className='preview-image'src={img.book_image} alt={img.title}/>
-                                )
-                            })} 
-                        </div>
-                    </div>
-                )
-            })}
-        </div>
+        <>
+        <List books={books}/>
+        </>
     )
 }
 
