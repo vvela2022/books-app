@@ -6,7 +6,6 @@ const Image = (props) => {
                     <img className= "preview-image" src={img.book_image} alt={img.title}/>
                 )
 })}
-
         </div>
         
     )
