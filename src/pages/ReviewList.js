@@ -1,7 +1,6 @@
 import {useState, useEffect} from 'react'
-import {Link} from 'react-router-dom'
 import List from "../components/List"
-import Image from "../components/Image"
+
 
 
 

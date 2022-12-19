@@ -1,4 +1,3 @@
-import BookList from "../pages/BookList"
 import {Link} from 'react-router-dom'
 
 const ListName = (props) => {
@@ -14,9 +13,3 @@ const ListName = (props) => {
 
 export default ListName
 
-{/* <div className='list-name'>
-<h4>{book.display_name}</h4>
-<Link to={`/lists/${book.list_name_encoded}`} key={book.list_name_encoded}>
-    <h4>View Full List</h4>
-</Link>
-</div> */}

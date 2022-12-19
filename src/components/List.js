@@ -1,6 +1,3 @@
-import BookList from "../pages/BookList";
-import {useState, useEffect} from 'react'
-import {Link} from 'react-router-dom'
 import Image from './Image'
 import ListName from './ListName'
 
